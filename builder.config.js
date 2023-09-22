@@ -10,7 +10,7 @@
 options = {
     username: 'Pixelnet',
     avatar: 'https://media.discordapp.net/attachments/1074717529072746526/1074717685599981620/20221121_175721.png',
-    verified: false,
+    verified: true,
     noUser: false,
     data: null,
     guiTabs: ['author', 'description'],
@@ -19,7 +19,7 @@ options = {
     allowPlaceholders: false,
     autoUpdateURL: false,
     autoParams: false,
-    hideEditor: false,
+    hideEditor: true,
     hidePreview: false,
     hideMenu: false,
     single: false,
