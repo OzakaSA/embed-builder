@@ -6,7 +6,7 @@
 
 window.options ??= {};
 window.inIframe ??= top !== self;
-mainHost = "glitchii.github.io";
+mainHost = "sirkelembed.netlify.app";
 
 let params = new URLSearchParams(location.search),
     hasParam = param => params.get(param) !== null,
@@ -200,10 +200,10 @@ let allJsonKeys = [...mainKeys, ...embedKeys];
 // 'jsonObject' is used internally, do not change it's value. Assign to 'json' instead.
 // 'json' is the object that is used to build the embed. Assigning to it also updates the editor.
 let jsonObject = window.json || {
-    content: "You can~~not~~ do `this`.```py\nAnd this.\nprint('Hi')```\n*italics* or _italics_     __*underline italics*__\n**bold**     __**underline bold**__\n***bold italics***  __***underline bold italics***__\n__underline__     ~~Strikethrough~~",
+    content: "",
     embed: {
         title: "Hello ~~people~~ world :wave:",
-        description: "You can use [links](https://discord.com) or emojis :smile: 😎\n```\nAnd also code blocks\n```",
+        description: "",
         color: 0x41f097,
         timestamp: new Date().toISOString(),
         url: "https://discord.com",
